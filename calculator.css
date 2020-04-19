@@ -1,0 +1,42 @@
+img {
+    width: 20%;
+    margin-top: 5%;
+}
+
+.row {
+    text-align: center;
+}
+
+.inputWidth {
+    width: 48%;
+    margin: 1% auto;
+    float: none; 
+}
+
+.btnA {
+    width: 10%;
+    padding: 2% 2%;
+    margin: 2% 1%;
+} 
+
+.btnB {
+    width: 48%;
+    padding: 2% 2%;
+}
+
+.ans {
+    font-size: 5rem;
+}
+
+@media (max-width: 768px) {
+    img {
+        width: 30%;
+    }
+    .inputWidth {
+        width: 70%;
+    }
+    .btnA {
+        width: 15.5%;
+
+    } 
+}
